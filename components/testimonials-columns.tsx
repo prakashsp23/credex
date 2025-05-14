@@ -39,7 +39,7 @@ export const TestimonialsColumn = (props: {
                       width={40}
                       height={40}
                       src={image}
-                      alt={name}
+                      alt={name[0]}
                       className="h-10 w-10 rounded-full"
                     />
                     <div className="flex flex-col">

@@ -82,7 +82,7 @@ export function HeroSection() {
                                         },
                                         ...transitionVariants,
                                     }}
-                                    className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row">
+                                    className="mt-12 flex flex-col  items-center justify-center gap-2 md:flex-row">
                                     <Button
                                         asChild
                                         size="lg"
@@ -105,7 +105,7 @@ export function HeroSection() {
                             </div>
                         </div>
 
-                        {/* <AnimatedGroup
+                        <AnimatedGroup
                             variants={{
                                 container: {
                                     visible: {
@@ -139,7 +139,7 @@ export function HeroSection() {
                                     />
                                 </div>
                             </div>
-                        </AnimatedGroup> */}
+                        </AnimatedGroup>
                     </div>
                 </section>
             </main>
